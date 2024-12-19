@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/terminal-shapes.dir/src/cube/cube.cpp.o CMakeFiles/terminal-shapes.dir/src/main.cpp.o CMakeFiles/terminal-shapes.dir/src/tslib.cpp.o CMakeFiles/terminal-shapes.dir/src/vertex/vertex.cpp.o -o terminal-shapes  -lcurses /usr/lib/x86_64-linux-gnu/libform.so 

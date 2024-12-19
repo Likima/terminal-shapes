@@ -1,0 +1,3 @@
+/home/brandon/terminal-shapes/build/CMakeFiles/terminal-shapes.dir
+/home/brandon/terminal-shapes/build/CMakeFiles/edit_cache.dir
+/home/brandon/terminal-shapes/build/CMakeFiles/rebuild_cache.dir

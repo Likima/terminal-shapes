@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/home/brandon/terminal-shapes/build",
+  "command": "/usr/bin/g++   -g -std=gnu++11 -o CMakeFiles/terminal-shapes.dir/src/cube/cube.cpp.o -c /home/brandon/terminal-shapes/src/cube/cube.cpp",
+  "file": "/home/brandon/terminal-shapes/src/cube/cube.cpp"
+},
+{
+  "directory": "/home/brandon/terminal-shapes/build",
+  "command": "/usr/bin/g++   -g -std=gnu++11 -o CMakeFiles/terminal-shapes.dir/src/main.cpp.o -c /home/brandon/terminal-shapes/src/main.cpp",
+  "file": "/home/brandon/terminal-shapes/src/main.cpp"
+},
+{
+  "directory": "/home/brandon/terminal-shapes/build",
+  "command": "/usr/bin/g++   -g -std=gnu++11 -o CMakeFiles/terminal-shapes.dir/src/tslib.cpp.o -c /home/brandon/terminal-shapes/src/tslib.cpp",
+  "file": "/home/brandon/terminal-shapes/src/tslib.cpp"
+},
+{
+  "directory": "/home/brandon/terminal-shapes/build",
+  "command": "/usr/bin/g++   -g -std=gnu++11 -o CMakeFiles/terminal-shapes.dir/src/vertex/vertex.cpp.o -c /home/brandon/terminal-shapes/src/vertex/vertex.cpp",
+  "file": "/home/brandon/terminal-shapes/src/vertex/vertex.cpp"
+}
+]

@@ -71,14 +71,18 @@ inline void UPDATE_RC() {
     ROWS = w.ws_row;				    
     COLUMNS = w.ws_col;	
     ORIGIN_X = COLUMNS / 2;
-    ORIGIN_Y = ROWS / 2;			    
+    ORIGIN_Y = ROWS / 2;			
+    ORIGIN_Z = 3; // arbitrary number    
 };
 
 #define Y_ORIGIN_OFFSET(y) (ORIGIN_Y + y)
 #define X_ORIGIN_OFFSET(x) (ORIGIN_X + x)
 
-#define FRAMES 15
+#define Y_REVERT(y) (y-ORIGIN_Y)
+#define X_REVERT(x) (x-ORIGIN_X)
 
+#define FRAMES 15
+#define DEPTH 5 // also arbitrary number
 
 // below macro follows from the fact that sizeof(char) = 1, thus sizeof(str) will return the size of the char[] passed.
 #define MIDDLE_PRINT(str) mvprintw(ORIGIN_Y, ORIGIN_X-(sizeof(str) / 2), str)
